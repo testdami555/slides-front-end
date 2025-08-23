@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación: Desarrollo Front-End</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GSAP (GreenSock Animation Platform) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Mi JS -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main id="presentation-container">
+        <!-- Slide 1 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2><i class="fa-solid fa-desktop"></i> ¿Qué es el desarrollo Front-End?</h2>
+                <ul>
+                    <li>Es la parte del desarrollo web enfocada en la interfaz de usuario.</li>
+                    <li>Todo lo que el usuario ve y con lo que interactúa.</li>
+                    <li>Objetivo: transformar el diseño en una experiencia funcional.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 2 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2><i class="fa-solid fa-layer-group"></i> Front-End vs. Back-End</h2>
+                <ul>
+                    <li><strong>Front-End:</strong> apariencia, navegación, interacción.</li>
+                    <li><strong>Back-End:</strong> lógica del servidor, base de datos, seguridad.</li>
+                    <li>Ambos trabajan juntos para formar un sitio web completo.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 3 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2><i class="fa-solid fa-copy"></i> Sitios Multipágina</h2>
+                <ul>
+                    <li>Sistemas de páginas conectadas entre sí.</li>
+                    <li>Ejemplo: sitios de empresas, diarios online, blogs, etc.</li>
+                    <li><strong>Ventaja:</strong> organizan mucha información.</li>
+                    <li><strong>Desventaja:</strong> hay que desarrollar más plantillas y puede llevar mayor mantenimiento.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 4 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2><i class="fa-solid fa-file-lines"></i> One Page y Landing Pages</h2>
+                <ul>
+                    <li><strong>One Page:</strong> toda la información en una sola página con scroll.</li>
+                    <li><strong>Landing Page:</strong> página con un objetivo puntual (promoción de ventas, servicios o eventos).</li>
+                    <li>Muy usadas en marketing digital.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 5 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2><i class="fa-solid fa-palette"></i> El concepto de Plantillas</h2>
+                <ul>
+                    <li>Diseños ya armados que se pueden reutilizar.</li>
+                    <li>Permiten crear sitios más rápido.</li>
+                    <li>Base común: estructura en HTML, estilos en CSS, interacción en JS.</li>
+                    <li>Ejemplo: plantillas en WordPress.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 6 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>HTML: la estructura <i class="fa-brands fa-html5"></i></h2>
+                <ul>
+                    <li>Estrauctura y equeleto del sitio web.</li>
+                    <li>Define títulos, párrafos, imágenes, formularios.</li>
+                    <li>Sin HTML, la web no tiene contenido visible.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 7 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>CSS: el estilo <i class="fa-brands fa-css3-alt"></i></h2>
+                <ul>
+                    <li>Da color, tipografía, diseño y animaciones.</li>
+                    <li>Permite que el sitio sea atractivo y adaptable (responsive).</li>
+                    <li>Separa el contenido (HTML) del diseño.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 8 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>JavaScript: la interacción <i class="fa-brands fa-js"></i></h2>
+                <ul>
+                    <li>Lenguaje que hace que el sitio sea dinámico.</li>
+                    <li>Ejemplos: menús desplegables, sliders, validación de formularios.</li>
+                    <li>Base de frameworks modernos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 9 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2><i class="fa-solid fa-screwdriver-wrench"></i> Herramientas de Desarrollo</h2>
+                <ul>
+                    <li><i class="fa-solid fa-code"></i> Editores: Visual Studio Code (más usado).</li>
+                    <li><i class="fa-brands fa-chrome"></i> Navegadores: Chrome o alternativas.</li>
+                    <li><i class="fa-brands fa-github"></i> Control de versiones: Git + GitHub.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 10 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>La IA en Front-End <i class="fa-solid fa-robot"></i></h2>
+                <ul>
+                    <li>Generar código más rápido (ej: Gemini, GitHub Copilot).</li>
+                    <li>Optimizar diseño y experiencia de usuario.</li>
+                    <li>Automatizar pruebas y depuración.</li>
+                    <li>El futuro combina creatividad humana con la potencia de la IA.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 2 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>Diferencia entre Front-End y Back-End</h2>
+                <ul>
+                    <li><strong>Front-End:</strong> apariencia, navegación, interacción.</li>
+                    <li><strong>Back-End:</strong> lógica, base de datos, seguridad.</li>
+                    <li>Ambos trabajan juntos para formar un sitio web completo.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 3 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>Sitios Multipágina</h2>
+                <ul>
+                    <li>Varios documentos HTML conectados entre sí.</li>
+                    <li>Ejemplo: sitios de empresas, diarios online.</li>
+                    <li><strong>Ventaja:</strong> organizan mucha información.</li>
+                    <li><strong>Desventaja:</strong> más carga de navegación.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 4 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>One Page y Landing Pages</h2>
+                <ul>
+                    <li><strong>One Page:</strong> toda la información en una sola página con scroll.</li>
+                    <li><strong>Landing Page:</strong> página diseñada con un objetivo puntual (ventas, leads).</li>
+                    <li>Muy usadas en marketing digital.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 5 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>El concepto de Plantillas (Templates)</h2>
+                <ul>
+                    <li>Diseños ya armados que se pueden reutilizar.</li>
+                    <li>Permiten crear sitios más rápido.</li>
+                    <li>Base común: estructura en HTML, estilos en CSS, interacción en JS.</li>
+                    <li>Ejemplo: plantillas en WordPress, Bootstrap.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 6 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>HTML: la estructura <i class="fa-brands fa-html5"></i></h2>
+                <ul>
+                    <li>Esqueleto del sitio web.</li>
+                    <li>Define títulos, párrafos, imágenes, formularios.</li>
+                    <li>Sin HTML, la web no tiene contenido visible.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 7 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>CSS: el estilo <i class="fa-brands fa-css3-alt"></i></h2>
+                <ul>
+                    <li>Da color, tipografía, diseño y animaciones.</li>
+                    <li>Permite que el sitio sea atractivo y adaptable (responsive).</li>
+                    <li>Separa el contenido (HTML) del diseño.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 8 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>JavaScript: la interacción <i class="fa-brands fa-js"></i></h2>
+                <ul>
+                    <li>Lenguaje que hace que el sitio sea dinámico.</li>
+                    <li>Ejemplos: menús desplegables, sliders, validación de formularios.</li>
+                    <li>Base de frameworks modernos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 9 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>Herramientas de Desarrollo</h2>
+                <ul>
+                    <li><i class="fa-solid fa-code"></i> Editores: Visual Studio Code (más usado).</li>
+                    <li><i class="fa-brands fa-chrome"></i> Navegadores: Chrome o alternativas.</li>
+                    <li><i class="fa-brands fa-github"></i> Control de versiones: Git y GitHub.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Slide 10 -->
+        <section class="slide">
+            <div class="slide-content">
+                <h2>La importancia de la IA en Front-End <i class="fa-solid fa-robot"></i></h2>
+                <ul>
+                    <li>Generar código más rápido (ej: Gemini, GitHub Copilot).</li>
+                    <li>Optimizar diseño y experiencia de usuario.</li>
+                    <li>Automatizar pruebas y depuración.</li>
+                    <li>El futuro combina creatividad humana con la potencia de la IA.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div class="nav-arrow prev" id="prev-btn"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="nav-arrow next" id="next-btn"><i class="fa-solid fa-chevron-right"></i></div>
+
+    <footer>
+        Presentación creada por Damián De Luca
+    </footer>
+
+</body>
+</html>
