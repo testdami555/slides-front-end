@@ -31,7 +31,7 @@ No se requiere instalación ni dependencias complejas. Simplemente sigue estos p
 
 ¡Y listo! Ya puedes ver y utilizar la presentación.
 
-Demo disponible en: (https://www.ejemplo.com](https://testdami555.github.io/slides-front-end)
+Demo disponible en: https://testdami555.github.io/slides-front-end
 
 
 ---
